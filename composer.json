@@ -1,0 +1,19 @@
+{
+    "name": "madwaf/uts-web",
+    "description": "Uts",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "madwaf",
+            "email": "madwaf2000@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0.15"
+    }
+}

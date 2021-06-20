@@ -1,0 +1,54 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin : 0px;
+    background-color: white;
+}
+main{
+    max-width: 1080px;
+    margin: auto;
+}
+header{
+    font-style: normal;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none ;
+    overflow: hidden;
+    background-color: rgb(0, 255, 21);
+}
+nav li {
+    float: left;
+}
+nav li> a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav li > a:hover{
+    background-color: rgb(63, 129, 9);
+}
+
+section{
+    min-height: 200px;
+}
+footer{
+    margin-top: 100 px;
+}
+table {
+    border: 2px solid #CCC;
+    width: 100%;
+    border-collapse: collapse;
+}
+table td{
+    border:1 px solid #CCC;
+    text-align: center;
+}
+table th {
+    border:1 px solid #CCC;
+}
+table p {
+    text-align: right;
+    word-break: keep-all;
+}
+a, a:visited { color: black; text-decoration: none; }
